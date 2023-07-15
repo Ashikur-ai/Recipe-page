@@ -176,3 +176,42 @@ li {
     padding: 50px 30px;
     margin-top: 70px;
 }
+
+
+@media screen and (max-width:576px) {
+    .title {
+        color: #000;
+        font-family: Playfair Display;
+        font-size: 2em;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+    }
+
+
+    .description {
+        width: 100%;
+    }
+
+    .container {
+        flex-direction: column-reverse;
+    }
+
+    .right {
+        display: flex;
+        justify-content: space-around;
+        width: 90%;
+        margin: auto;
+        height: 100%;
+        padding: 10px;
+    }
+
+    .left {
+        padding: 10px;
+        width: 100%;
+    }
+
+    .footer {
+        display: none;
+    }
+}
