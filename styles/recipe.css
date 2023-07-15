@@ -160,6 +160,7 @@ li {
 
 .container {
     display: flex;
+    justify-content: space-between;
     
 }
 
@@ -171,4 +172,7 @@ li {
     width: 216px;
     height: 367px;
     flex-shrink: 0;
+    display: grid;
+    padding: 50px 30px;
+    margin-top: 70px;
 }
